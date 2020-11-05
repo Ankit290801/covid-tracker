@@ -80,8 +80,9 @@ function updatestats(){
 }
 
 //UPDATE CHART
-let my_chart;
+
 function axesLinearchart(){
+	let my_chart;
 	if(my_chart){
 		my_chart.destroy();
 	}
